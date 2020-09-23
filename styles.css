@@ -1,3 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Poppins, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6C2D2C;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin-right: 17px;
+    margin-left: 17px;
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: #42313A;
+    color: #fff;
+    border-radius: 10px;
+}
+
+a.navbar-brand {
+    color: #fff;
+}
+
+a.navbar-brand:hover {
+    cursor: default;
+}
+
+/* Welcome Section */
+
+.portfolio-about-row {
+    background-color: #42313A;
+}
+
+.portfolio-about-heading {
+    color: #fff;
+    padding-top: 386px;
+    font-size: 65px;
+}
+
+.portfolio-about-text {
+    color: #9F4636;
+    font-size: 28px;
+}
+
+/* Projects */
+
+.portfolio-project-heading {
+    border-bottom: 5px solid #fff;
+    font-size: 22px;
+    color: #fff;
+}
+
+.portfolio-project-row {
+    background-color: #9F4636;
+}
+
+.card {
+    max-width: 24rem;
+    border-radius: 6px;
+}
+
+.card-body {
+    background-color: #42313A;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 39vh;
+    object-fit: cover;
 }
