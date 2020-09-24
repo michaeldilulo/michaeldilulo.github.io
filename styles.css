@@ -86,6 +86,14 @@ a:hover {
     color: #fff;
 }
 
+a.portfolio-all-projects-button {
+    color: #fff;
+}
+
+a.portfolio-all-projects-button:hover {
+    color: #9F4636;
+}
+
 /* Footer */
 
 .portfolio-header {
@@ -163,7 +171,7 @@ button.btn.btn-none.text-light {
     h1.portfolio-footer-heading.portfolio-heading-content {
         margin-left: 5px;
     }
-    
+
     .portfolio-links-modal {
     margin-bottom: 0;
     padding-top: 0;
