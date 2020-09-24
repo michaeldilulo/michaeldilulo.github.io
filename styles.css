@@ -36,6 +36,7 @@ a.navbar-brand:hover {
 
 .portfolio-about-row {
     background-color: #42313A;
+    height: 100vh;
 }
 
 .portfolio-about-heading {
@@ -121,4 +122,51 @@ a.text-light.portfolio-project-small-links {
 
 a.text-light.portfolio-project-small-links:hover {
     bottom: -10px;
+}
+
+button.btn.btn-none {
+    font-size: 25px;
+}
+
+.portfolio-links-modal {
+    margin-bottom: 350px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+button.btn.btn-none.text-light {
+    padding-top: 0;
+}
+
+@media(max-width: 576px) {
+    .portfolio-about-row {
+    height: 50vh;
+}
+
+    h1.d-flex.justify-content-center.portfolio-about-heading {
+        padding-top: 125px;
+
+    }
+    h1.portfolio-footer-heading.portfolio-heading-content {
+        padding-top: 10px;
+
+    }
+    .col-md-2.d-flex.justify-content-center.portfolio-project-links.mb-1 {
+        padding-bottom: 5px;
+
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h1.portfolio-footer-heading.portfolio-heading-content {
+        margin-left: 5px;
+    }
+    
+    .portfolio-links-modal {
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
 }

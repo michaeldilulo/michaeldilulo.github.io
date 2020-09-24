@@ -52,7 +52,7 @@
 
         <section id="about">
             <div class="container-fluid">
-                <div class="row portfolio-about-row vh-100">
+                <div class="row portfolio-about-row">
                     <div class="col-md-12">
                         <h1 class="d-flex justify-content-center portfolio-about-heading">Michael A. DiLulo</h1>
                         <p class="d-flex justify-content-center portfolio-about-text">Full Stack Software Developer</p>
@@ -182,34 +182,79 @@
         <div class="container-fluid" id="profile-link">
             <div class="row portfolio-header pb-5 pt-4 text-light portfolio-footer-row">
                 <div class="col-md-2 d-flex justify-content-center portfolio-project-links mb-1">
-                    <a href="https://www.github.com" target="_blank" class="text-light portfolio-project-small-links">
+                    <a href="https://www.github.com/michaeldilulo" target="_blank"
+                        class="text-light portfolio-project-small-links">
                         <i class="fab fa-github mr-2 mt-1 portfolio-footer-icons"></i>Github
                     </a>
                 </div>
                 <div class="col-md-2 d-flex justify-content-center portfolio-project-links mb-1">
-                    <a href="https://www.instagram.com" class="text-light portfolio-project-small-links">
-                        <i class="fab fa-instagram mr-2 mt-1"></i>Instagram
+                    <a href="https://www.freecodecamp.org/snoleopard01001101"
+                        class="text-light portfolio-project-small-links">
+                        <i class="fab fa-instagram mr-2 mt-1"></i>Free Code Camp
                     </a>
                 </div>
                 <div class="col-md-2 d-flex justify-content-center portfolio-project-links mb-1">
-                    <a href="https://www.twitter.com" class="text-light portfolio-project-small-links">
+                    <a href="https://twitter.com/snoleopard1025" class="text-light portfolio-project-small-links">
                         <i class="fab fa-twitter mr-2 mt-1"></i>Twitter
                     </a>
                 </div>
                 <div class="col-md-2 d-flex justify-content-center portfolio-project-links mb-1">
-                    <a href="https://www.linkedin.com" class="text-light portfolio-project-small-links">
+                    <a href="https://www.linkedin.com/in/mike-dilulo/" class="text-light portfolio-project-small-links">
                         <i class="fab fa-linkedin mr-2 mt-1"></i>Linkedin
                     </a>
                 </div>
-                <div class="col-md-2 d-flex justify-content-center portfolio-project-links mb-1">
-                    <a href="https://www.gmail.com" class="text-light portfolio-project-small-links">
+                <div class="col-md-2 d-flex justify-content-center portfolio-links-modal">
+                    <button type="button" data-toggle="modal" data-target="#emailModal" class="btn btn-none text-light">
                         <i class="fas fa-envelope mr-2 mt-1"></i>Send an Email
-                    </a>
+                    </button>
                 </div>
-                <div class="col-md-2 d-flex justify-content-center portfolio-project-links mb-1">
-                    <a href="#" class="text-light portfolio-project-small-links">
+                <div class="col-md-2 d-flex justify-content-center portfolio-links-modal">
+                    <button type="button" data-toggle="modal" data-target="#callMeModal"
+                        class="btn btn-none text-light">
                         <i class="fas fa-phone mr-2 mt-1"></i>Call me
-                    </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Email Me Modal -->
+
+        <div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Email Information:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Email: mikedilulo2020@gmail.com</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call me Modal -->
+
+        <div class="modal fade" id="callMeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Phone Number:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>(986) 224-0435</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
