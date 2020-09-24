@@ -75,3 +75,12 @@ a.navbar-brand:hover {
     height: 39vh;
     object-fit: cover;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+.portfolio-projects-button {
+    background-color: #42313A;
+    color: #fff;
+}
